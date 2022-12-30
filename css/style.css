@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Khand:wght@400;500;600;700&family=Roboto:wght@300;400;700&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body 
+{
+    font-family: 'Roboto', sans-serif;
+    background: #989898;
+}
+.page
+{
+    width: 960px;
+    margin: auto;
+    background: #fff;
+}
+.l
+{
+    float: left;
+}
+.r 
+{
+    float: right;
+}
+.clc
+{
+    clear: both;
+}
+.info 
+{
+    text-align: right;
+    padding: 5px;
+}
+header
+{
+    border-bottom: 10px solid #D7D7D7;
+}
+.w-100
+{
+    width: 100%;
+}
+main
+{
+    width: 70%;
+    border-right: 1px dotted #000;
+    padding-right: 20px;
+}
+aside 
+{
+    width: 25%;
+}
+.content 
+{
+    padding: 10px;
+    font-size: 14px;
+    line-height: 25px;
+}
+footer 
+{
+    background: #044470;
+    color: #fff;
+    padding: 5px;
+}
+nav ul 
+{
+    list-style: none;
+    padding-top: 13px;
+}
+nav ul li 
+{
+    display: inline;
+}
+nav ul li a 
+{
+    text-decoration: none;
+    background: #044470;
+    color: #fff;
+    font-size: 14px;
+    padding: 4px 10px;
+}
